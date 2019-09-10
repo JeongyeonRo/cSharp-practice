@@ -1,0 +1,11 @@
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\bin\Debug\netcoreapp2.1\ConsoleApp0910.deps.json
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\bin\Debug\netcoreapp2.1\ConsoleApp0910.runtimeconfig.json
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\bin\Debug\netcoreapp2.1\ConsoleApp0910.runtimeconfig.dev.json
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\bin\Debug\netcoreapp2.1\ConsoleApp0910.dll
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\bin\Debug\netcoreapp2.1\ConsoleApp0910.pdb
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\obj\Debug\netcoreapp2.1\ConsoleApp0910.csprojAssemblyReference.cache
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\obj\Debug\netcoreapp2.1\ConsoleApp0910.csproj.CoreCompileInputs.cache
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\obj\Debug\netcoreapp2.1\ConsoleApp0910.AssemblyInfoInputs.cache
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\obj\Debug\netcoreapp2.1\ConsoleApp0910.AssemblyInfo.cs
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\obj\Debug\netcoreapp2.1\ConsoleApp0910.dll
+C:\Users\Jeongyeon\Documents\c#practice\ConsoleApp0910\ConsoleApp0910\obj\Debug\netcoreapp2.1\ConsoleApp0910.pdb
