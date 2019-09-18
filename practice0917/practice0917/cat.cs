@@ -57,7 +57,7 @@ namespace practice0917
             else if (happiness >= 20)
                 message = "bad";
             else
-                message = "vert bad";
+                message = "very bad";
 
             return this.Name + " : " + message;
         }
