@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace practice0918
 {
-    //클래스 앞에 접근지정자가 없는 경우 - internal:같은 네임스페이스에서만 접근 가능
-    //public - 다른 네임스페이스에서도 클래스 접근이 가능
-    class Customer
+    //클래스 앞에 접근지정자가 없는 경우 - private
+    public class Customer
     {
         public string firstName;
         public string lastName;
@@ -25,7 +24,7 @@ namespace practice0918
         //나이를 통해서 제한값 변경
         private bool _isQualified;
 
-        public Customer(string FirstName, string LastName, DateTime birthday, int Age)
+        public Customer(string FirstName, string LastName, DateTime birthday)
         {
             this.firstName = FirstName;
             this.lastName = LastName;
