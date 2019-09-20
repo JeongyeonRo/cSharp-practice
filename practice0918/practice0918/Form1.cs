@@ -15,10 +15,14 @@ namespace practice0918
         public Customer cus1;
         public Customer cus2;
 
+        public List<Customer> customers = new List<Customer>();
+
+        /*
         Customer customerOne;
         Customer[] customerArray = new Customer[5];
+        
         public int customerArrayIndex = 0;
-
+        */
 
 
         public Form1()
@@ -77,6 +81,7 @@ namespace practice0918
             //반복문을 사용하기
             //for(초기식; 조건식; 증감식){ }
 
+            /*
             customerArray[customerArrayIndex] = new Customer(cusFirstName.Text, cusNewLastName.Text,
                 DateTime.Parse(cusNewBirth.Text));
             customerArray[customerArrayIndex].address = cusNewAddress.Text;
@@ -85,7 +90,18 @@ namespace practice0918
             customerList.Items.Add(customerArray[customerArrayIndex].firstName);
 
             customerArrayIndex++;
-            
+            */
+
+            Customer cus = new Customer(cusFirstName.Text, cusNewLastName.Text,
+               DateTime.Parse(cusNewBirth.Text));
+            cus.address = cusNewAddress.Text;
+            cus.description = cusNewDescription.Text;
+
+            customerList.Items.Add(cus.firstName);
+
+            customers.Add(cus);
+
+
         }
 
 
@@ -148,11 +164,22 @@ namespace practice0918
             string firstName = customerList.SelectedItem.ToString();
 
             //이름을 가지고 고객 데이터 가져오기
+            /*
             for(int i=0; i<customerArrayIndex; i++)
             {
                 if(customerArray[i].firstName == firstName)
                 {
                     showDetails(customerArray[i]);
+                    break;
+                }
+            }
+            */
+
+            foreach(Customer cus in customers)
+            {
+                if(cus.firstName == firstName)
+                {
+                    showDetails(cus);
                     break;
                 }
             }

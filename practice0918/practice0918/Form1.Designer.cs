@@ -349,7 +349,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(554, 461);
+            this.ClientSize = new System.Drawing.Size(687, 478);
             this.Controls.Add(this.customerList);
             this.Controls.Add(this.cusNewPanel);
             this.Controls.Add(this.currentDay);
