@@ -101,6 +101,9 @@ namespace practice0918
 
             customers.Add(cus);
 
+            //cusList.Rows.Add("name", 12, true);
+            cusList.Rows.Add(cus.firstName, cus.Age, cus.isQualified);
+
 
         }
 
@@ -178,6 +181,26 @@ namespace practice0918
             foreach(Customer cus in customers)
             {
                 if(cus.firstName == firstName)
+                {
+                    showDetails(cus);
+                    break;
+                }
+            }
+        }
+
+        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void CusList_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            //선택된 열의 인덱스를 이용해서 클릭이벤트 처리
+            string firstName = (string)cusList.Rows[e.RowIndex].Cells[0].Value;
+
+            foreach (Customer cus in customers)
+            {
+                if (cus.firstName == firstName)
                 {
                     showDetails(cus);
                     break;
